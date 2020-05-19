@@ -7,7 +7,7 @@ master版
 
 mkdir v2ray-agent &&
 cd v2ray-agent &&
-curl https://raw.githubusercontent.com/hulisang/v2ray-sspanel-v3-mod_Uim-plugin/master/install.sh -o install.sh &&
+curl https://raw.githubusercontent.com/sanyueshisan/v2ray-sspanel-v3-mod_Uim-plugin/master/install.sh -o install.sh &&
 chmod +x install.sh &&
 bash install.sh
 
@@ -15,7 +15,7 @@ dev版
 
 mkdir v2ray-agent &&
 cd v2ray-agent &&
-curl https://raw.githubusercontent.com/hulisang/v2ray-sspanel-v3-mod_Uim-plugin/dev/install.sh -o install.sh &&
+curl https://raw.githubusercontent.com/sanyueshisan/v2ray-sspanel-v3-mod_Uim-plugin/dev/install.sh -o install.sh &&
 chmod +x install.sh &&
 bash install.sh
 ```
@@ -172,7 +172,7 @@ wget https://www.moerats.com/usr/shell/swap.sh && bash swap.sh
 ~~~
 mkdir v2ray-agent  &&  \
 cd v2ray-agent && \
-curl https://raw.githubusercontent.com/hulisang/v2ray-sspanel-v3-mod_Uim-plugin/master/install.sh -o install.sh && \
+curl https://raw.githubusercontent.com/sanyueshisan/v2ray-sspanel-v3-mod_Uim-plugin/master/install.sh -o install.sh && \
 chmod +x install.sh && \
 bash install.sh
 ~~~
@@ -185,19 +185,19 @@ bash install.sh
 
 安装（这里保持最新版本）
 ~~~
-bash <(curl -L -s  https://raw.githubusercontent.com/rico93/v2ray-core/master/release/install-release.sh) --panelurl https://xxxx --panelkey xxxx --nodeid 21
+bash <(curl -L -s  https://raw.githubusercontent.com/sanyueshisan/v2ray-core/master/release/install-release.sh) --panelurl https://xxxx --panelkey xxxx --nodeid 21
 ~~~
 
 后续升级（如果要更新到最新版本）
 ~~~
-bash <(curl -L -s  https://raw.githubusercontent.com/rico93/v2ray-core/master/release/install-release.sh)
+bash <(curl -L -s  https://raw.githubusercontent.com/sanyueshisan/v2ray-core/master/release/install-release.sh)
 ~~~
 
 
 如果要强制安装某个版本
 
 ~~~
-bash <(curl -L -s  https://raw.githubusercontent.com/rico93/v2ray-core/master/release/install-release.sh) -f --version 4.12.0
+bash <(curl -L -s  https://raw.githubusercontent.com/sanyueshisan/v2ray-core/master/release/install-release.sh) -f --version 4.12.0
 ~~~
 
 
